@@ -5,7 +5,7 @@ import styles from "./SummaryItem.module.css";
 
 export default function SummaryItem({ summary }: { summary: Summary }) {
 	const { icon, category, score } = summary;
-	const iconURL = `assets/images/${icon}`;
+	const iconURL = `/assets/images/${icon}`;
 	return (
 		<section
 			className={clsx(
