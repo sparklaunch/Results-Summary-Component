@@ -1,0 +1,68 @@
+.summary {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.left {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.category {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.reactionBackground {
+	background-color: var(--color-reaction-background);
+}
+
+.memoryBackground {
+	background-color: var(--color-memory-background);
+}
+
+.verbalBackground {
+	background-color: var(--color-verbal-background);
+}
+
+.visualBackground {
+	background-color: var(--color-visual-background);
+}
+
+.reactionText {
+	color: var(--color-reaction);
+}
+
+.memoryText {
+	color: var(--color-memory);
+}
+
+.verbalText {
+	color: var(--color-verbal);
+}
+
+.visualText {
+	color: var(--color-visual);
+}
+
+.right {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.score {
+	color: var(--color-accent);
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.subscore {
+	color: var(--color-inactive);
+	font-weight: 700;
+	font-size: 16px;
+}
